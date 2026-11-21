@@ -24,7 +24,7 @@ export default function App() {
 
   const handleClearCart = () => {
     setCart([]);
-  };
+  }; 
 
   const handleAddToWishlist = (product) => {
     if (!wishlist.some(item => item.id === product.id)) {
